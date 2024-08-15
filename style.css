@@ -157,8 +157,16 @@ textarea::placeholder{height: 30px;text-align: left;font-size: large;font-family
 .footer-last{border: #111111 solid 2px;background: linear-gradient(180deg, #111111 100%, rgb(119, 119, 119) 100%);text-align: center;color: #ffffff;font-family:"Inter",sans-serif;font-weight: 100;}
 
 
+.video-background{ position: relative;
+top: 0;
+left: 0;
+width: 100%;
+object-fit: cover;
+opacity: 0.5; 
+z-index: 1;
+overflow: hidden;
 
-
+}
 
 
 @media screen and (max-width:576px){

@@ -12,7 +12,7 @@
 
 .banner{background: linear-gradient(180deg, #111111 5%, rgb(119, 119, 119) 100%);
 
-  ;
+  
 }
 
 .banner{border: 2px solid rgb(255, 59, 59);}
@@ -62,11 +62,27 @@ s
 }
 .main-div-section2{display: grid;grid-template-columns: repeat(4,1fr);padding: 0 200px;}
 
-.circle-img{justify-content: center;align-items: center;border: 5px solid hotpink;display: flex;flex-direction: column;text-align: center;padding-top: 20px;}
+.circle-img{justify-content: center;align-items: center;display: flex;flex-direction: column;text-align: center;padding-top: 20px;}
 .grid-img{border-radius: 50%;}
 .section2{background: linear-gradient(180deg, #111111 100%, rgb(119, 119, 119) 100%);}
 .circle-heading{color: rgba(255, 255, 255, 1)}
 .circle-paragraph{color: rgba(255, 255, 255, 0.5)}
+.section3{border: #111111 solid 2px;background: linear-gradient(180deg, #111111 100%, rgb(119, 119, 119) 100%);}
+.section3-main-div{max-width: 1440px;
+margin: 0 auto;display: flex;margin-top: 100px;margin-bottom: 100px;padding: 50px;border-radius: 20px;background-color: rgba(34, 34, 34, 1);
+;}
+.section3-header{font-size: larger;font-family: "Inter", sans-serif;padding-left: 100px;color: rgba(255, 255, 255, 1);
+}
+.section3-paragraph{font-family: "Inter", sans-serif;font-size: large;color: rgba(255, 255, 255, 0.5);font-weight: 100;
+}
+.section3-button{font-family: "Inter", sans-serif;padding: 15px;background-color: rgba(230, 83, 60, 1);color:  rgba(255, 255, 255, 1);
+
+  ;border-radius: 20px;width: 200px;}
+.section3-width{width: 50%;}
+.section3-img{width: 70%;border-radius: 20px;
+}
+
+
 
 
 @media screen and (max-width:576px){
@@ -85,8 +101,14 @@ s
   .bodybuilder{transform: translateX(100px);}
   .video{padding-left: 150px;transform: translateY(-500px);}
   .img-inside-img2{transform: translatey(-300px);}
-  .fa-circle{color: rgba(230, 83, 60, 1) ;font-size: 40px;transform: translateY(-220px);padding-left: 10px;
-  }
+  .fa-circle{color: rgba(230, 83, 60, 1) ;font-size: 40px;transform: translateY(-220px);padding-left: 10px;}
+  .section2-div{text-align: center;}
+  .main-div-section2{display: grid;grid-template-columns: repeat(1,1fr);padding: 0}
+  {border: #111111 solid 2px;background: linear-gradient(180deg, #111111 100%, rgb(119, 119, 119) 100%);}
+  .section3-main-div{display: flex;flex-direction: column;padding: 0;margin-top: 50px;border: #27ff0a solid 2px;}
+  .section3-width{padding-left: 50px;}
+  .section3-img{padding-left: 100px;padding-top: 50px;border-radius: 20px;}
+    
 }
 
 

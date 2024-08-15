@@ -27,7 +27,7 @@
 .unordered-list{display: flex;border: 2px solid rgb(255, 83, 40);}
 
 .section1{display: flex;}
-s
+()
 .img1-div{flex-direction: row;display: flex;border: 2px solid rgb(255, 230, 0);width: 50%;justify-content: center;align-items: center;}
 
 
@@ -106,6 +106,44 @@ textarea::placeholder{height: 30px;text-align: left;font-size: large;font-family
 
 
 
+.section5{border: #111111 solid 2px;background: linear-gradient(180deg, #111111 100%, rgb(119, 119, 119) 100%);}
+
+.section5-main-div {
+
+  padding: 0 400px;
+  
+}
+
+.section5-paragraph{font-family: "Inter", sans-serif;color: #ffffff;font-size: xx-large;font-weight: 800}
+
+.section5-paragraph1{font-weight: 100;font-family: "Inter", sans-serif;color: #ffffff;font-size: small;}
+
+.section5-paragraph1,.section5-paragraph{transform: translateY(-130px);}
+
+.section5-img-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px; 
+  margin-top: 20px;padding: 20px;background: rgba(255, 255, 255, 0.1);
+
+}
+
+.section5-heading{font-size: 48px;font-weight: 900;font-family: "Inter", sans-serif;color: rgba(255, 255, 255, 1);text-align: center;}
+
+.section5-paragraph2{font-size: 16px;font-weight: 200;font-family: "Inter", sans-serif;color: rgba(255, 255, 255, 1);text-align: center;}
+
+.section5-img {
+  width: 100%; 
+  height: 300px; 
+  object-fit: cover; 
+  opacity: 0.7;border-radius: 10px;
+
+}
+
+
+
+
 @media screen and (max-width:576px){
   
   .unordered-list{display: none;}
@@ -130,7 +168,26 @@ textarea::placeholder{height: 30px;text-align: left;font-size: large;font-family
   .section3-width{padding-left: 50px;}
   .section3-img{padding-left: 100px;padding-top: 50px;border-radius: 20px;}
     .section4-main-div{display: flex;flex-direction: column;padding: 0 20px;margin: 0;}
-}
+    .section5-img-div {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+      grid-template-rows: repeat(1, 1fr);
+      gap: 16px; 
+      margin-top: 20px;padding: 0px;background: rgba(255, 255, 255, 0.1);
+      
+    
+    }
+
+
+    .section5-main-div {
+
+      padding: 30px;
+      
+    }
+
+  }
+
+
 
 
 

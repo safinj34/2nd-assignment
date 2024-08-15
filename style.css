@@ -75,13 +75,34 @@ margin: 0 auto;display: flex;margin-top: 100px;margin-bottom: 100px;padding: 50p
 }
 .section3-paragraph{font-family: "Inter", sans-serif;font-size: large;color: rgba(255, 255, 255, 0.5);font-weight: 100;
 }
-.section3-button{font-family: "Inter", sans-serif;padding: 15px;background-color: rgba(230, 83, 60, 1);color:  rgba(255, 255, 255, 1);
+.section3-button{font-family: "Inter", sans-serif;padding: 15px;background-color: rgba(230, 83, 60, 1);color:  rgba(255, 255, 255, 1);z
 
   ;border-radius: 20px;width: 200px;}
 .section3-width{width: 50%;}
 .section3-img{width: 70%;border-radius: 20px;
 }
 
+table{border-collapse: collapse;border: .05px;}
+.section4-paragraph{color: rgba(255, 255, 255, 0.5);font-family: "Inter", sans-serif;}
+
+td,th{border: solid 0.5px rgb(255, 255, 255);
+padding: 10px;}
+td{color: rgba(255, 255, 255, 0.5);font-family: "Inter", sans-serif;}
+th , .section4-table-header , .section4-form-header{color: rgba(255, 255, 255, 1);font-family: "Inter", sans-serif;}
+.section4-table-header{padding-top: 20px;}
+
+.section4{border: #111111 solid 2px;background: linear-gradient(180deg, #111111 100%, rgb(119, 119, 119) 100%);}
+.section4-main-div{display: flex;justify-content: space-between;margin: 100px 300px;}
+.all-form{display: grid;grid-template-columns: repeat(2,2fr);gap:30px; }
+
+#text-box1,#text-box2,#text-box3,#text-box4,#text-box5{background: rgba(255, 255, 255, 0.1);border-radius: 10px;height: 50px;padding-top: 5px;
+}
+textarea::placeholder{height: 30px;text-align: left;font-size: large;font-family: "Inter", sans-serif;
+  padding-left: 20px;padding: 5px;}
+
+#text-box5{grid-column: span 2;}
+
+.section4-button{font-family: "Inter", sans-serif;padding: 20px;background-color: rgba(230, 83, 60, 1);border-radius: 20px;width: 200px;color: #ffffff;font-weight: 800;}
 
 
 
@@ -108,7 +129,7 @@ margin: 0 auto;display: flex;margin-top: 100px;margin-bottom: 100px;padding: 50p
   .section3-main-div{display: flex;flex-direction: column;padding: 0;margin-top: 50px;border: #27ff0a solid 2px;}
   .section3-width{padding-left: 50px;}
   .section3-img{padding-left: 100px;padding-top: 50px;border-radius: 20px;}
-    
+    .section4-main-div{display: flex;flex-direction: column;padding: 0 20px;margin: 0;}
 }
 
 

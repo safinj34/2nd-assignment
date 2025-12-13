@@ -132,22 +132,22 @@
 }
 
 .img-inside-img2 {
-  transform: translatey(-300px);
+ text-align: center;
   color: #ffffff;
-  text-align: right;
+
   font-family: "Inter", sans-serif;
   font-size: 30px;
   font-weight: 800;
   border-radius: 10px;
   box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
   width: 150px;
-  transform: translateY(-130px)
+  
 }
 
 .fa-circle {
   color: rgba(230, 83, 60, 1);
   font-size: 40px;
-  transform: translateY(-50px);
+  
 }
 
 .span {
@@ -155,12 +155,10 @@
   font-weight: lighter;
 }
 
-.bodybuilder {
-  transform: translateY(150px);
-}
+
 
 .video {
-  transform: translateY(-300px);
+position: relative;
 }
 
 
@@ -649,7 +647,7 @@ textarea::placeholder {
 @media screen and (max-width:576px) {
   .img-inside-img2 {
     flex-direction: column;
-    transform: translatey(-300px)
+  
   }
 
   .img1-div {

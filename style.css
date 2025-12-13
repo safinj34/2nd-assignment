@@ -547,12 +547,12 @@ textarea::placeholder {
   }
 
   .bodybuilder {
-    transform: translateX(100px);
+ 
   }
 
   .video {
     padding-left: 150px;
-    transform: translateY(-500px);
+    
   }
 
 
@@ -655,6 +655,8 @@ textarea::placeholder {
     width: 100%;
   }
 
+. .img-inside-img{position: relative;}
+
   .img-inside-img,
   video,
   .bodybuilder {
@@ -710,13 +712,7 @@ textarea::placeholder {
     width: 100%;
   }
 
-  .img-inside-img,
-  video,
-  .bodybuilder {
-    transform: translate(0px);
-    padding: 0px;
-    margin: 0px;
-  } .section3-header{
+  .section3-header{
   padding: 0px;
   text-align: center;display: flex;justify-content: center;}
 
